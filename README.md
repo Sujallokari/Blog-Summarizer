@@ -23,4 +23,25 @@ A sleek and responsive React application that summarizes long blog content using
 - **Styling**: Custom CSS with blur, gradients, and responsive layout
 
 ## 📂 Project Structure
+├── public/
+├── src/
+│ ├── Components/
+│ │ ├── Header.jsx
+│ │ ├── Button.jsx
+│ │ └── TextArea.jsx
+│ │ └── Summary.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── styles.css
+├── .env
+└── README.md
+
+## 🧪 Setup & Run Locally
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/yourusername/blog-text-summarizer.git
+cd blog-text-summarizer
+VITE_HUGGINGFACE_API_KEY=your_api_key_here
 
