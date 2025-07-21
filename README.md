@@ -1,12 +1,26 @@
-# React + Vite
+# 📝 Blog Text Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React application that summarizes long blog content using the HuggingFace `facebook/bart-large-cnn` NLP model. Perfect for writers, readers, and productivity seekers who want quick summaries of lengthy content.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧠 Uses HuggingFace’s state-of-the-art BART model for text summarization
+- ⚡ Fast and responsive UI with loading state
+- 🎨 Clean glassmorphism-inspired design using CSS
+- 📋 Copy-to-clipboard feature for easy use of summaries
+- 🔒 Environment variable support for API keys
 
-## Expanding the ESLint configuration
+## 📸 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Paste your blog, click summarize, and get the essence in seconds!
+
+![App Screenshot](https://your-screenshot-link-if-any.png)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite
+- **API**: HuggingFace Inference API (`facebook/bart-large-cnn`)
+- **Styling**: Custom CSS with blur, gradients, and responsive layout
+
+## 📂 Project Structure
+
